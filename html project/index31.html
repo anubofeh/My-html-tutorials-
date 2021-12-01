@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <Head><title>Registration form</title> </head>
+  <body>
+<br>
+	<h3> User Registration<h3><br>
+	<p> Please complete the following form to register with our site:</p>
+    <Form action="/action_page.php" method="POST">
+<table>
+	<tr>
+		<td><label for="Username">User Name:</label></td>
+		<td><input type="Text" required></td>
+	</tr>
+	<tr>
+		<td><label for="Password">Password:</label></td>
+		<td><input type="Password" required></td>
+	</tr>
+	<tr>
+		<td>Gender</td>
+		<td>
+			<input type="radio" name="sex" value="male">Male<br>
+			<input type="radio" name="sex" value="female">FeMale
+		</td>
+	</tr>
+	<tr>
+		<td>How did you hear about it</td>
+		<td>
+			<select name="cars" id="cars">
+  				<option value="volvo">Volvo</option>
+  				<option value="saab">Saab</option>
+  				<option value="mercedes">Mercedes</option>
+  				<option value="audi">Audi</option>
+			</select>
+		</td>
+		
+	<tr>
+		<td>
+			 <label for="text">Please select this box if you wish <Br> to added to our mailing list</label> 
+		</td> 
+	<td><input type="checkbox"></td>
+	</tr>
+
+
+<br>
+	<tr> 
+		<td> <label for="Registration" name="Register now">We will not pass on your details to any third party</label>
+		</td>
+		<td>
+	<input type="submit" Id="register now" name="register now" Value="register now">
+		</td>
+		
+	</tr>
+</table>
+   </form>
+  </body>
+</html>
